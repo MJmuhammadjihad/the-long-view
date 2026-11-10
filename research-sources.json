@@ -1,0 +1,250 @@
+[
+  {
+    "publisher": "ILO · Working Paper 140",
+    "date": "20 May 2025",
+    "scope": "Global · task exposure",
+    "title": "Generative AI and Jobs: A Refined Global Index",
+    "url": "https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure",
+    "limitations": "Clerical work has high exposure; the paper expects transformation to be more common than complete replacement. Exposure is not a forecast of layoffs, and is not an estimate of your hiring chances."
+  },
+  {
+    "publisher": "US Bureau of Labor Statistics",
+    "date": "2025–2035 projection; accessed 9 Nov 2026",
+    "scope": "United States · forecast",
+    "title": "Software developers, QA analysts, and testers",
+    "url": "https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm",
+    "limitations": "The current page projects 10% combined employment growth during 2025–2035 and describes typical degree requirements. US employment projections do not establish Bangladeshi salaries, entry-level demand, or remote access."
+  },
+  {
+    "publisher": "Brynjolfsson, Li & Raymond · QJE",
+    "date": "Published 4 Feb 2025",
+    "scope": "One firm · empirical study",
+    "title": "Generative AI at Work",
+    "url": "https://academic.oup.com/qje/article/140/2/889/7990658",
+    "limitations": "The published study of 5,172 customer-support agents finds a 15% average productivity gain, with substantial differences between workers. This is task- and workplace-specific, not a universal AI effect."
+  },
+  {
+    "publisher": "METR",
+    "date": "24 Feb 2026",
+    "scope": "Software · research update",
+    "title": "Changing the developer productivity experiment",
+    "url": "https://metr.org/blog/2026-02-24-uplift-update/",
+    "limitations": "The early-2025 randomized study found a slowdown among experienced developers. The 2026 update describes biased later samples and weak evidence about the size of speedup; it cautions against treating the old estimate as current universal truth."
+  },
+  {
+    "publisher": "World Bank",
+    "date": "7 Oct 2025",
+    "scope": "Bangladesh · economic report",
+    "title": "Reforms, jobs, and the geography of opportunity",
+    "url": "https://www.worldbank.org/en/news/press-release/2025/10/07/strong-and-timely-reforms-needed-to-sustain-inclusive-growth-in-bangladesh",
+    "limitations": "Documents employment challenges and concentration of industrial jobs in Dhaka and Chattogram. Broad economic evidence does not validate a particular business niche or wage."
+  },
+  {
+    "publisher": "AppifyDevs · employer page",
+    "date": "Accessed 9 Nov 2026; listed deadline 10 Nov 2026",
+    "scope": "Dhaka · job snapshot",
+    "title": "Software Engineering Internship (Backend)",
+    "url": "https://appifydevs.com/career/sei-backend",
+    "limitations": "Lists backend fundamentals, SQL, APIs, testing and critical review of AI output. Described as paid, with no salary amount. A single employer listing is neither market-representative nor independently verified; availability can change."
+  },
+  {
+    "publisher": "ZOOM IT · employer page",
+    "date": "Accessed 9 Nov 2026; listed deadline 30 Nov 2026",
+    "scope": "Dhaka · job snapshot",
+    "title": "Software Developer: internship to full-time",
+    "url": "https://thezoomit.com/careers/software-developer-intern/",
+    "limitations": "Describes business systems and a modern web stack, with a conditional pathway to employment. This is an employer’s description, not a placement guarantee, salary benchmark, or endorsement."
+  },
+  {
+    "publisher": "IEA",
+    "date": "Energy and AI · 2025",
+    "scope": "Global · scenario projection",
+    "title": "Energy demand from AI",
+    "url": "https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai",
+    "limitations": "The base case projects substantial data-centre electricity growth to 2030. Outcomes depend on efficiency, adoption and infrastructure. This does not establish returns for a power stock or a small business in Dhaka."
+  },
+  {
+    "publisher": "IEA",
+    "date": "World Energy Employment · 2025",
+    "scope": "Global · employment evidence",
+    "title": "Energy workforce and skills shortages",
+    "url": "https://www.iea.org/reports/world-energy-employment-2025/executive-summary",
+    "limitations": "Describes expanding electricity employment and skilled-worker bottlenecks, with different conditions across technologies and countries. Global shortages do not remove local licensing, training or wage constraints."
+  },
+  {
+    "publisher": "World Bank",
+    "date": "16 Sep 2025",
+    "scope": "Bangladesh · observed trends and estimates",
+    "title": "Heat, health, and economic risk in Bangladesh",
+    "url": "https://www.worldbank.org/en/news/press-release/2025/09/16/bangladesh-faces-health-and-economic-risks-from-rising-temperature-world-bank",
+    "limitations": "Uses temperature trends and a 2024 household survey to document heat-related impacts. Supports investigating cooling and adaptation needs, but does not establish willingness to pay for any proposed product."
+  },
+  {
+    "publisher": "World Health Organization",
+    "date": "1 Oct 2025",
+    "scope": "Global · demographic projection",
+    "title": "Ageing and health",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/ageing-and-health",
+    "limitations": "Projects that one in six people globally will be aged 60 or older by 2030. Care needs vary by place, purchasing power and policy. More need does not automatically mean better pay."
+  },
+  {
+    "publisher": "Bangladesh Bank",
+    "date": "FEPD-1 Circular 26 · 30 Jul 2026",
+    "scope": "Bangladesh · regulation",
+    "title": "Consolidated export foreign-exchange rules, Part K",
+    "url": "https://www.bb.org.bd/mediaroom/circulars/fepd/jul302026fepd-126e.pdf",
+    "limitations": "Part K, printed pages 36–37 (PDF pages 43–44), covers individual service exporters, electronic evidence, authorized dealers and compliance. Later circulars may modify it; ask your authorized-dealer bank to apply the rules to your actual payment route."
+  },
+  {
+    "publisher": "Government of Germany",
+    "date": "Accessed 9 Nov 2026",
+    "scope": "Germany · immigration rules",
+    "title": "Visa options for IT professionals",
+    "url": "https://www.make-it-in-germany.com/en/visa-recognition/visa-types/other/it-professionals",
+    "limitations": "Explains degree-based and experience-based routes and the importance of a job offer. Recognition, salary and other conditions apply. This is an example of credential option value, not a promise of eligibility."
+  },
+  {
+    "publisher": "US SEC · Investor.gov",
+    "date": "Accessed 9 Nov 2026",
+    "scope": "Investing · general principles",
+    "title": "Asset allocation, diversification, and rebalancing",
+    "url": "https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/beginners-guide-asset",
+    "limitations": "Supports diversification, horizon-based allocation and awareness of concentration. US account types and legal protections do not transfer automatically to Bangladesh."
+  },
+  {
+    "publisher": "US SEC · Investor.gov",
+    "date": "Accessed 9 Nov 2026",
+    "scope": "Investing · general principles",
+    "title": "Understanding investment fees",
+    "url": "https://www.investor.gov/introduction-investing/getting-started/understanding-fees",
+    "limitations": "Explains how fees affect long-term portfolio value. Product charges, tax and availability must be checked locally."
+  },
+  {
+    "publisher": "Hendrik Bessembinder · ASU",
+    "date": "2018 paper; research hub accessed 9 Nov 2026",
+    "scope": "US stocks · historical research",
+    "title": "Do stocks outperform Treasury bills?",
+    "url": "https://wpcarey.asu.edu/department-finance/faculty-research/do-stocks-outperform-treasury-bills",
+    "limitations": "Historical research documents how a small share of stocks drove aggregate wealth creation. Supports caution about picking winners; does not establish future returns or apply directly to Bangladesh land."
+  },
+  {
+    "publisher": "Bangladesh Securities and Exchange Commission",
+    "date": "Accessed 9 Nov 2026",
+    "scope": "Bangladesh · investor education",
+    "title": "Investor education and authorized intermediaries",
+    "url": "https://www.sec.gov.bd/investor-education",
+    "limitations": "Local starting point for capital-market education and investor protection. Registration is not a guarantee against investment loss."
+  },
+  {
+    "publisher": "National Board of Revenue · Bangladesh",
+    "date": "Accessed 9 Nov 2026",
+    "scope": "Bangladesh · tax reference",
+    "title": "Income tax FAQ",
+    "url": "https://nbr.gov.bd/faq/income-tax-faq",
+    "limitations": "Official starting point for filing and taxpayer information. This guide does not assert that all freelance income is tax-exempt or calculate your tax liability."
+  },
+  {
+    "publisher": "Harvard CS50",
+    "date": "Current open course",
+    "scope": "Learning resource",
+    "title": "Introduction to Programming with Python",
+    "url": "https://cs50.harvard.edu/python/",
+    "limitations": "A structured introduction with exercises and a final project. Course completion alone does not prove independent engineering ability; respect its academic-honesty rules."
+  },
+  {
+    "publisher": "Django Software Foundation",
+    "date": "Current documentation",
+    "scope": "Learning resource",
+    "title": "Writing your first Django app",
+    "url": "https://docs.djangoproject.com/en/stable/intro/tutorial01/",
+    "limitations": "Official introduction to a web framework. Use documentation matching your installed supported version."
+  },
+  {
+    "publisher": "Mozilla · MDN",
+    "date": "Current documentation",
+    "scope": "Learning resource",
+    "title": "Learn web development",
+    "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development",
+    "limitations": "Reference and curriculum for web fundamentals; select HTML, CSS and basic JavaScript modules first."
+  },
+  {
+    "publisher": "PostgreSQL Global Development Group",
+    "date": "Current documentation",
+    "scope": "Learning resource",
+    "title": "PostgreSQL tutorial",
+    "url": "https://www.postgresql.org/docs/current/tutorial.html",
+    "limitations": "Relational database and SQL fundamentals. Practice with your own schema and queries."
+  },
+  {
+    "publisher": "OWASP Foundation",
+    "date": "Top 10 · 2025 release",
+    "scope": "Learning resource",
+    "title": "Web application security risks",
+    "url": "https://owasp.org/www-project-top-ten/",
+    "limitations": "A security awareness resource. Reading it is not equivalent to a security audit or professional certification."
+  },
+  {
+    "publisher": "GitHub",
+    "date": "Current learning portal",
+    "scope": "Learning resource",
+    "title": "GitHub Skills / Learn",
+    "url": "https://skills.github.com/",
+    "limitations": "Hands-on version-control and collaboration exercises. Focus on branches, commits and pull requests."
+  },
+  {
+    "publisher": "Python Software Foundation",
+    "date": "Current documentation",
+    "scope": "Learning resource",
+    "title": "The Python tutorial",
+    "url": "https://docs.python.org/3/tutorial/",
+    "limitations": "Reference for programmers new to Python. Use the beginner course first if programming fundamentals are weak."
+  },
+  {
+    "publisher": "Stanford Digital Economy Lab",
+    "date": "12 Aug 2026 revision; data through Jun 2026",
+    "scope": "United States · descriptive payroll study",
+    "title": "Young workers and AI exposure: revised employment evidence",
+    "url": "https://digitaleconomy.stanford.edu/news/canariesaug26/",
+    "limitations": "Reports a relative employment shortfall for young workers in highly exposed roles, chiefly associated with reduced hiring. The authors explicitly reject a causal interpretation and discuss education, pre-trends and sample limitations. It is not a Bangladesh forecast."
+  },
+  {
+    "publisher": "International Monetary Fund",
+    "date": "Country Report 26/24 · Jan 2026",
+    "scope": "Bangladesh · labour-market analysis",
+    "title": "Job creation and structural transformation: Annex V",
+    "url": "https://www.imf.org/-/media/files/publications/cr/2026/english/1bgdea2026001-source-pdf.pdf",
+    "limitations": "Annex V, printed pages 46–49, uses Bangladesh Labour Force Survey data to discuss educational attainment outpacing high-quality job creation. Broad structural evidence cannot price the return to an individual institution or predict a personal outcome."
+  },
+  {
+    "publisher": "Amar Fuel · employer page",
+    "date": "Accessed 9 Nov 2026; listed deadline 31 Dec 2026",
+    "scope": "Dhaka · advertised role, not verified hiring",
+    "title": "Junior Software Developer",
+    "url": "https://pro.amarfuel.com/careers/junior-software-developer",
+    "limitations": "Advertises BDT 25,000–30,000 per month, completed CSE degree, PHP/React/Next.js and databases. Payroll, salary composition and actual vacancy were not independently confirmed. One offer is not a wage distribution."
+  },
+  {
+    "publisher": "Appifylab · employer page",
+    "date": "Accessed 9 Nov 2026; no deadline found",
+    "scope": "Sylhet · advertised role, freshness uncertain",
+    "title": "Support Engineer Fresher",
+    "url": "https://www.appifylab.com/career/support-engineer-fresher/",
+    "limitations": "Advertises BDT 20,000 monthly, degree preferred and strong English. Mentions rotating shifts and also standard office hours; clarify this inconsistency. Actual vacancy and payroll unverified."
+  },
+  {
+    "publisher": "LEOTECH · employer page",
+    "date": "Accessed 9 Nov 2026; no deadline on role page",
+    "scope": "Dhaka · advertised role, freshness uncertain",
+    "title": "Junior SQA Engineer",
+    "url": "https://webpro.leotechbd.com/careers/junior-sqa-engineer",
+    "limitations": "Describes 0–1 year experience, testing fundamentals and a preferred degree. Pay is described as competitive with no amount; it remains unknown. Do not borrow a deadline from another role on the careers page."
+  },
+  {
+    "publisher": "Appifylab · employer page",
+    "date": "Accessed 9 Nov 2026; no deadline found",
+    "scope": "Sylhet · advertised role, freshness uncertain",
+    "title": "Inbound Sales & Product Demo Executive",
+    "url": "https://www.appifylab.com/inbound-sales-product-demo-executive-saas",
+    "limitations": "Calls for English communication, product demonstrations and selling ability; welcomes freshers, but lists degrees and elsewhere prioritizes skills. Pay is undisclosed; eligibility and terms require clarification. Same employer as source 29, so not independent employer evidence."
+  }
+]

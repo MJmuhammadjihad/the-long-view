@@ -1,0 +1,31 @@
+name: Bug report
+description: Report a reproducible problem in a calculator or the interface.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: "Please use invented values. Do not publish journal backups, personal finances or credentials."
+  - type: input
+    id: location
+    attributes:
+      label: Where did this happen?
+      placeholder: "Cash runway, degree tool, mobile menu…"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps and synthetic inputs
+      description: Include the selected currency unit when reporting calculator behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected and actual result
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Browser, device and version

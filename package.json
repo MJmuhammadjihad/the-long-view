@@ -1,0 +1,17 @@
+{
+  "name": "the-long-view",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local-first career and money decision toolkit",
+  "license": "MIT",
+  "scripts": {
+    "build": "python3 build.py",
+    "test": "node tests/test-guide.cjs && python3 tests/check_build.py"
+  },
+  "devDependencies": {
+    "linkedom": "0.18.15"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

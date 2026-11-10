@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mjmuhammadjihad.github.io/the-long-view/sitemap.xml

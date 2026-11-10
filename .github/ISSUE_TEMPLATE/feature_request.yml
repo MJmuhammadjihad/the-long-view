@@ -1,0 +1,17 @@
+name: Improve a decision
+description: Suggest a focused improvement that helps a reader act.
+title: "[Idea]: "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Which decision is currently difficult?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Smallest useful improvement
+      description: Explain the benefit and any evidence or tradeoffs.
+    validations:
+      required: true

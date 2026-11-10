@@ -1,0 +1,23 @@
+name: Research correction
+description: Flag a stale source, unsupported inference or missing limitation.
+title: "[Evidence]: "
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Chapter, source number or quoted claim
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: What needs correction and why?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Original source, publication date and relevant evidence
+      description: Prefer primary public sources. Explain geography or study limitations.
+    validations:
+      required: true
