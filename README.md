@@ -6,7 +6,7 @@
 
 **Career decisions, with the numbers attached.**
 
-[![Checks](https://github.com/MJmuhammadjihad/the-long-view/actions/workflows/checks.yml/badge.svg)](https://github.com/MJmuhammadjihad/the-long-view/actions/workflows/checks.yml) · [MIT license](LICENSE) · [v1.0.0 release](https://github.com/MJmuhammadjihad/the-long-view/releases/tag/v1.0.0)
+[![Checks](https://github.com/MJmuhammadjihad/the-long-view/actions/workflows/checks.yml/badge.svg)](https://github.com/MJmuhammadjihad/the-long-view/actions/workflows/checks.yml) · [MIT license](LICENSE) · [v1.0.1 release](https://github.com/MJmuhammadjihad/the-long-view/releases/tag/v1.0.1)
 
 An open, local-first guide for choosing a learning path, pricing a degree, protecting your cash runway, and thinking clearly about long-term wealth. Read the reasoning, change the assumptions, and keep a record of what changed your mind.
 

@@ -15,6 +15,7 @@ p=Nesting();p.feed(html)
 assert not p.errors and not p.stack, (p.errors,p.stack)
 assert (ROOT/'dist/index.html').read_bytes()==(ROOT/'dist/guide.html').read_bytes()
 assert '{{SOURCES}}' not in html
+assert (ROOT/'LICENSE').read_text() in html, 'Standalone HTML must carry its license'
 sources=json.loads((ROOT/'research-sources.json').read_text())
 assert len(sources)==31
 assert len({s['url'] for s in sources})==len(sources)

@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.1 — 2026-11-10
+
+Embed the full MIT notice in the standalone HTML so the single-file download carries its license offline. No calculator or research changes.
+
 ## 1.0.0 — 2026-11-10
 
 First public release of The Long View.

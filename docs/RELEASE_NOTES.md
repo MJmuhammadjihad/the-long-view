@@ -1,3 +1,5 @@
+**1.0.1 adds the full MIT notice to the standalone HTML download.**
+
 The Long View is an open career and money decision toolkit: compare routes, price education, stress-test cash flow and keep a private decision journal.
 
 - 12 chapters, 31 dated references and a conditional 24-week plan.
