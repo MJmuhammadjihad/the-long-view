@@ -1,0 +1,37 @@
+name: Publish release
+on:
+  push:
+    tags: ['v*']
+permissions:
+  contents: read
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify release version
+        run: |
+          python3 - <<'PY'
+          import json,os,re
+          tag=os.environ['GITHUB_REF_NAME']
+          assert re.fullmatch(r'v\d+\.\d+\.\d+',tag), 'Use a vMAJOR.MINOR.PATCH tag'
+          assert tag=='v'+json.load(open('site.json'))['version'], 'Tag and site version differ'
+          PY
+      - run: npm ci --ignore-scripts
+      - run: npm run build
+      - run: npm test
+      - run: python3 scripts/package_release.py
+      - name: Publish downloadable release assets
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release create "$GITHUB_REF_NAME" release/the-long-view.html release/the-long-view-offline.zip release/SHA256SUMS.txt --verify-tag --title "The Long View $GITHUB_REF_NAME — Career decisions, with the numbers attached" --notes-file docs/RELEASE_NOTES.md
