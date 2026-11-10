@@ -38,18 +38,20 @@ The current release has automated DOM, arithmetic, storage, source and build che
 
 The reviewed `repository-details.json` files contain exact descriptions, website URLs and topic lists. Repository contents and About fields are separate: committing these manifests does not change GitHub settings.
 
-In a terminal with Python 3 and an owner-authorized GitHub CLI login (`gh auth login`), clone this repository or use your existing checkout. Preview both repositories:
+In a terminal with Python 3 and an owner-authorized GitHub CLI login (`gh auth login`), clone this repository or use your existing checkout. Preview the three repositories:
 
 ```sh
-python3 scripts/sync_repository_details.py --repo MJmuhammadjihad/the-long-view --repo MJmuhammadjihad/AI-ML-Engineering-Portfolio
+python3 scripts/sync_repository_details.py --repo MJmuhammadjihad/the-long-view --repo MJmuhammadjihad/AI-ML-Engineering-Portfolio --repo MJmuhammadjihad/AI-ML-Engineering-Roadmap
 ```
 
 Apply the displayed missing fields:
 
 ```sh
-python3 scripts/sync_repository_details.py --apply --repo MJmuhammadjihad/the-long-view --repo MJmuhammadjihad/AI-ML-Engineering-Portfolio
+python3 scripts/sync_repository_details.py --apply --repo MJmuhammadjihad/the-long-view --repo MJmuhammadjihad/AI-ML-Engineering-Portfolio --repo MJmuhammadjihad/AI-ML-Engineering-Roadmap
 ```
 
 The helper fetches each requested repository’s reviewed manifest. It preserves nonempty descriptions and websites, retains existing topics, and verifies the result after writing. It is safe to run again after a partial failure. It never requests or prints access-token values. The `--apply` flag is the only way it sends writes.
+
+If an existing description is outdated, replace it in the About panel using the reviewed manifest. The helper deliberately preserves nonempty fields, so it will not correct stale text automatically.
 
 A connection that can push source may still lack repository Administration access. A `403 Resource not accessible by integration` is a GitHub authorization failure; running this helper under the same restricted connection does not grant more permission. Use your own authorized owner session or edit the About panel and click **Save**. Social-preview uploads still require the GitHub settings interface.
