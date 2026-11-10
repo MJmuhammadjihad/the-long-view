@@ -33,3 +33,23 @@ Use [the launch kit](LAUNCH.md) for editable announcements, a short demonstratio
 ## Validation limits
 
 The current release has automated DOM, arithmetic, storage, source and build checks. Full browser layout and cross-browser tests have not been completed. Do not describe it as bug-free or externally validated.
+
+## Apply missing About fields with verification
+
+The reviewed `repository-details.json` files contain exact descriptions, website URLs and topic lists. Repository contents and About fields are separate: committing these manifests does not change GitHub settings.
+
+In a terminal with Python 3 and an owner-authorized GitHub CLI login (`gh auth login`), clone this repository or use your existing checkout. Preview both repositories:
+
+```sh
+python3 scripts/sync_repository_details.py --repo MJmuhammadjihad/the-long-view --repo MJmuhammadjihad/AI-ML-Engineering-Portfolio
+```
+
+Apply the displayed missing fields:
+
+```sh
+python3 scripts/sync_repository_details.py --apply --repo MJmuhammadjihad/the-long-view --repo MJmuhammadjihad/AI-ML-Engineering-Portfolio
+```
+
+The helper fetches each requested repository’s reviewed manifest. It preserves nonempty descriptions and websites, retains existing topics, and verifies the result after writing. It is safe to run again after a partial failure. It never requests or prints access-token values. The `--apply` flag is the only way it sends writes.
+
+A connection that can push source may still lack repository Administration access. A `403 Resource not accessible by integration` is a GitHub authorization failure; running this helper under the same restricted connection does not grant more permission. Use your own authorized owner session or edit the About panel and click **Save**. Social-preview uploads still require the GitHub settings interface.
